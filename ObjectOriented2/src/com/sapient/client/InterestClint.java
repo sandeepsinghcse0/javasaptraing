@@ -3,6 +3,7 @@ package com.sapient.client;
 import java.util.Scanner;
 
 import com.sapient.services.Interest;
+import com.sapient.util.SapUtil;
 
 public class InterestClint {
      public static void main(String args[])
@@ -16,7 +17,8 @@ public class InterestClint {
     	 sc.close();
     	 double si=ob.calcSimple();
     	 double cm= ob.clacCompound();
-    	 System.out.println("Simple Interest   "+si);
-    	 System.out.println("Compound Interest  "+cm);
+    	 System.out.println("Simple Interest   "+SapUtil.roundUp2Dec(si));
+    	 System.out.println("Compound Interest  "+SapUtil.roundUp2Dec(cm));
+    	 
      }
 }

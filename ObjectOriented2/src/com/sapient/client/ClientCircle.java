@@ -15,6 +15,7 @@ public class ClientCircle {
 	    	 ob.redious=sc.nextDouble();
 	    	 System.out.println("Area of circle"+ob.Area());
 	    	 System.out.println("Perimeter of circle"+ob.Area());
+	    	 sc.close();
 	     }
 	
 }
