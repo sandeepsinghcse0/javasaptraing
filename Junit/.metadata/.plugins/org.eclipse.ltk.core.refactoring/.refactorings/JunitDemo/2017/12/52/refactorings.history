@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CalcService.java&apos; to &apos;JunitDemo/src/com.sapient.service&apos;&#x0D;&#x0A;- Original project: &apos;JunitDemo&apos;&#x0D;&#x0A;- Destination element: &apos;JunitDemo/src/com.sapient.service&apos;&#x0D;&#x0A;- Original element: &apos;com.sapient.test.CalcService.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.sapient.service" element1="/src&lt;com.sapient.test{CalcService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1514437015055" units="1" version="1.0"/>
+</session>

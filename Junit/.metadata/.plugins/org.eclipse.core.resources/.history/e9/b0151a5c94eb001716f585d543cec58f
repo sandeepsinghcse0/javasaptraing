@@ -1,0 +1,14 @@
+package com.sapient.service;
+
+public class CalcService {
+	
+	public double calcServices(int a,int b,int c) {
+		int res=(a+b+c)/2;
+		return res+1;
+	}
+	
+	public double round2N(double num) {
+		return ((int)(num*100)/100.0);
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.sapient.test;
+
+public class Palindrome {
+	
+	public boolean checkPalindrome(String str)
+	{
+		StringBuffer sb=new StringBuffer(str);
+		if(str.equals(sb.reverse().toString()))
+		   return true;
+		   else {return false;}		
+	}
+
+}

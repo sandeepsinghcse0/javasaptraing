@@ -1,0 +1,10 @@
+package com.sapient.test;
+
+public class CalcService {
+	
+	public double calcServices(int a,int b,int c) {
+		int res=(a+b+c)/2;
+		return res;
+	}
+
+}

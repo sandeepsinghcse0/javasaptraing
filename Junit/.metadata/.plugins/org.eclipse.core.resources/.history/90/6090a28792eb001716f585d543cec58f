@@ -1,0 +1,45 @@
+package test;
+
+public class Test1 extends Test2 {
+	
+	static {
+		System.out.println("Static child");
+	}
+	{
+		System.out.println("instance child");
+	}
+	public Test1() {
+		System.out.println("Constructer child");
+	}
+	
+	public static void main(String args[]) {		
+		Test2 ts=new Test1();
+	}
+	
+	public int sum(int a,double b) {
+		System.out.println("Child");
+		return 0;
+	}
+	
+
+}
+class Test2{
+	
+	static {
+		System.out.println("Static parrent");
+	}
+	
+	{
+		System.out.println("instance parrent");
+	}
+	public Test2() {
+		System.out.println("Constructer parrent");
+	}
+	public int sum(int a,float b) {
+		System.out.println("Parent");
+		return 0;
+	}
+	
+}
+
+
