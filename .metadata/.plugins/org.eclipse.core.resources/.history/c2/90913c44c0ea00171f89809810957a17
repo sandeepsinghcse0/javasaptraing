@@ -1,0 +1,12 @@
+package com.pack7;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class CallableClient {
+  public static void main(String args[]) {
+	  
+		ExecutorService pool =Executors.newFixedThreadPool();//it will create thread based on demond
+		
+  }
+}

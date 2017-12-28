@@ -1,0 +1,15 @@
+package com.sapient.vo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Mapdemo {
+	List<Emp> lst = new ArrayList<Emp>();
+	lst.add(new Emp(1001, "jaydeep", 23000.0));
+	lst.add(new Emp(1002, "deep", 123000.0));
+	lst.add(new Emp(1009, "jay", 25000.0));
+	lst.add(new Emp(1003, "jaydee", 29000.0));
+	lst.add(new Emp(1004, "ydeep", 33000.0));
+	
+
+}

@@ -1,0 +1,42 @@
+package com.sapient.vo;
+
+public class Emp implements Comparable<Emp>{
+	private Integer eid;
+	private String ename;
+	private Double sal;
+	
+
+
+	public Emp(int eid, String ename, Double sal) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.sal = sal;
+	}
+	
+	public void setSal(Double sal) {
+		this.sal = sal;
+	}
+
+	public Integer getEid() {
+		return eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public Double getSal() {
+		return sal;
+	}
+
+	@Override
+	public int compareTo(Emp emp) {
+		// TODO Auto-generated method stub
+		Integer e1=this.eid;
+		Integer e2=this.eid;
+		return e1.compareTo(e2);
+	}
+	
+
+}

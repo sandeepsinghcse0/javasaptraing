@@ -1,0 +1,15 @@
+package com.sapient.vo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Emp> lst=new ArrayList<Emp>();
+		lst.add(new Emp(1001,"Jaydeep",23000));
+
+	}
+
+}

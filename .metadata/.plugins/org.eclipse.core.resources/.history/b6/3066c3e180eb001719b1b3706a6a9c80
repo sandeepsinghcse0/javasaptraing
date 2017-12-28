@@ -1,0 +1,30 @@
+package Test;
+
+public class Test1 {
+	
+	static {
+		System.out.println("Static parent");
+	}
+	{
+		System.out.println("instance parent");
+	}
+	public Test1() {
+		System.out.println("Constructer parent");
+	}
+	
+
+}
+class Test2{
+	
+	static {
+		System.out.println("Static Child");
+	}
+	
+	{
+		System.out.println("instance child");
+	}
+	public Test2() {
+		System.out.println("Constructer child");
+	}
+	
+}

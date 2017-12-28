@@ -1,0 +1,17 @@
+package com.pack1;
+
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
+
+public class AdjusterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDate ldt=LocalDate.now();
+		System.out.println(ldt.with(TemporalAdjusters.firstDayOfMonth()));
+		System.out.println(ldt.with(TemporalAdjusters.lastDayOfMonth()));
+		System.out.println(ldt.with(TemporalAdjusters.firstDayOfNextMonth()));
+		//System.out.println(ldt.with(TemporalAdjusters.));
+	}
+
+}

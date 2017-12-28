@@ -1,0 +1,11 @@
+package com.sapient.lambda;
+
+public class CalcClient {
+
+	public static void main(String[] args) {
+
+		ICalculator add=(a,b)->{return a+b);};
+
+	}
+
+}

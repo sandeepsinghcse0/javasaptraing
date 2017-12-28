@@ -1,0 +1,20 @@
+package Test;
+
+public class Test1 {
+	
+	static {
+		System.out.println("Static parent");
+	}
+	{
+		System.out.println("instance parent");
+	}
+	
+
+}
+class Test2{
+	
+	static {
+		System.out.println("Static Child");
+	}
+	
+}

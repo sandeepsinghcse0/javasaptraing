@@ -1,0 +1,14 @@
+package com.pack1;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class ParsingDemo {
+	
+	public static void main(String args[]) {
+	DateTimeFormatter df=DateTimeFormatter.ofPattern("dd-mm-yyyy");
+	String str="12 feb 2014";
+	LocalDate ldt=LocalDate.parse(str,df);
+	System.out.println();
+}
+}

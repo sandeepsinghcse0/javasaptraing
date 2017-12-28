@@ -1,0 +1,15 @@
+import java.io.FileReader;
+import java.util.Properties;
+
+public class PropDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Properties props =new Properties();
+		props.put("1001", "Sandeep");
+		props.put("1002", "XXXXXXXXXX");
+		props.load(new FileReader("src\\sap.properties"));
+
+	}
+
+}

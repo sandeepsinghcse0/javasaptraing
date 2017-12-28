@@ -1,0 +1,22 @@
+package com.sapient.stream1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MatchDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> lst=new ArrayList<Integer>();
+		 lst.add(1);
+		 lst.add(2);
+		 lst.add(3);
+		 lst.add(4);
+		 lst.add(5);
+		 lst.add(6);
+		 System.out.println(lst.stream().anyMatch(i->i%2==0));
+		 System.out.println(lst.stream().allMatch(i->i%5==0));
+		 System.out.println(lst.stream().noneMatch(i->i>=90));
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.sapient.def;
+
+public interface IDao {
+	public void m1();
+	public void m2();
+	
+	public default void m3() {
+	   System.out.println("Default method in interface");
+	}
+
+}

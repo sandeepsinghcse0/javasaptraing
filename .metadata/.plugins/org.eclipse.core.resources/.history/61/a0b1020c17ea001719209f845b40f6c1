@@ -1,0 +1,22 @@
+package com.sapient.stream1;
+
+import java.util.Optional;
+
+public class OptionalDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="sfjhsiadf";
+		Optional<String> res=Optional.ofNullable(str);
+		System.out.println(res);
+		
+		if(res.isPresent()) {
+			System.out.println(res.get());
+		}
+		else {
+			System.out.println("Empty");
+		}
+
+	}
+
+}

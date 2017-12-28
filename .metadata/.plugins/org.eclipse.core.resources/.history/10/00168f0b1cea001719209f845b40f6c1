@@ -1,0 +1,24 @@
+package com.sapient.vo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.sapient.util.EmpUtil;
+
+public class SortDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Emp> lst=new ArrayList<Emp>();
+		lst.add(new Emp(1001,"Jaydeep",23000));
+		lst.add(new Emp(1002,"deep",123000));
+		lst.add(new Emp(1009,"Jay",25000));
+		lst.add(new Emp(1003,"Jaydee",29000));
+		lst.add(new Emp(1004,"Ydeep",33000));
+		
+		System.out.println("Sort by empid");
+        
+		lst.stream().filter(i->i!=null).sorted((e1,e2)->e1.getEname().compareTo(e2.getEname())).forEach(EmpUtil::display);
+	}
+
+}
