@@ -1,0 +1,16 @@
+2018-01-02 15:08:55,990 [main] DEBUG  sapient - service instance created
+2018-01-02 15:08:55,990 [main] INFO   sapient - transfer the amount rs 5000 from acc 1003 to 1002
+2018-01-02 15:11:14,943 [main] DEBUG  sapient - hashmap initialized with two parameter
+2018-01-02 15:11:14,959 [main] DEBUG  sapient - service instance created
+2018-01-02 15:11:14,959 [main] INFO   sapient - transfer the amount rs 5000 from acc 1003 to 1002
+2018-01-02 15:11:14,959 [main] DEBUG  sapient - i sda
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - hashmap initialized with two parameter
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - service instance created
+2018-01-02 15:13:04,631 [main] INFO   sapient - transfer the amount rs 5000 from acc 1003 to 1002
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - i sda
+2018-01-02 15:13:04,631 [main] INFO   sapient - accont found
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - from account retrived
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - i sda
+2018-01-02 15:13:04,631 [main] INFO   sapient - accont found
+2018-01-02 15:13:04,631 [main] DEBUG  sapient - toaccount retrived
+2018-01-02 15:13:04,631 [main] INFO   sapient - successfuly transfered

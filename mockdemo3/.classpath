@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/jopt-simple-4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-console-5.0.0-ALPHA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-jupiter-api-5.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-jupiter-engine-5.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-jupiter-migration-5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-jupiter-params-5.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-commons-1.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-engine-1.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-launcher-1.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-runner-1.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-suite-api-1.0.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-platform-surefire-provider-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/junit-vintage-engine-4.12.0-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/mockito-extension-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ssi315/Desktop/Junit/opentest4j-1.0.0-M2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
